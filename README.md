@@ -3,9 +3,6 @@ End-to-end Machine Learning + NLP project to predict customer satisfaction using
 
 ---
 
-# customer-satisfaction-ml-nlp-project  
-End-to-end Machine Learning + NLP project to predict customer satisfaction from support tickets and identify key drivers of dissatisfaction.
-
 # Customer Support Ticket Satisfaction Analysis (NLP + ML)
 
 **Author:** Deepika Priya K  
