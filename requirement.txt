@@ -1,8 +1,11 @@
+python
 pandas
 numpy
 matplotlib
 seaborn
+TF-IDF Vectorizer
 scikit-learn
 xgboost
-joblib
-sentence-transformers
+SHAP
+sentence-transformers(BERT embeddings)
+joblib(saving model)
