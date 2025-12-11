@@ -73,7 +73,7 @@ Final trained model saved as:
 
 ## Skills & Tools Used  
 
-- **Python:** Pandas, NumPy  
+- **Programming & Analytics:** Python, Pandas, NumPy  
 - **Machine Learning:** Scikit-learn, XGBoost  
 - **NLP:** SentenceTransformers (MPNet)  
 - **Visualization:** Seaborn, Matplotlib  
