@@ -90,6 +90,7 @@ The result is a combination of **data-driven insights** and a **predictive ML mo
 - **Product type** influences dissatisfaction patterns  
 - **Text sentiment** provides strong predictive power for the ML model  
 
+---
 
 ## Machine Learning Results
 
@@ -108,36 +109,37 @@ The result is a combination of **data-driven insights** and a **predictive ML mo
 
 ---
 
-## Business Recommendations  
+## Business Recommendations
 
-**1. Reduce response & resolution delays:**  
-Implement better triage, workload balancing, and SLA monitoring.
+1. **Reduce response & resolution delays**  
+   Implement better triage, workload balancing, and SLA monitoring.
 
-**2. Prioritize high-risk tickets:**  
-Long descriptions + high waiting time → route to senior agents.
+2. **Prioritize high-risk tickets**  
+   Long descriptions + high waiting time → route to senior agents.
 
-**3. Improve agent communication quality:**  
-Provide templates, tone guidelines, proactive messaging.
+3. **Improve agent communication quality**  
+   Provide templates, tone guidelines, and proactive messaging.
 
-**4. Strengthen product-specific support:**  
-Some product categories have more dissatisfaction.
+4. **Strengthen product-specific support**  
+   Some product categories have higher dissatisfaction patterns.
 
-**5. Use ML predictions in real-time:**  
-Alert supervisors for tickets likely to receive low ratings.
+5. **Use ML predictions in real-time**  
+   Alert supervisors for tickets likely to receive low ratings.
 
 ---
 
-## Next Steps  
+## Next Steps
 
-1. Build Power BI dashboard for insights  
+1. Build a Power BI dashboard for insights  
 2. Train an advanced transformer model (BERT fine-tuning)  
-3. Deploy model as REST API  
+3. Deploy the model as a REST API  
 4. Add text sentiment SHAP explanations  
 
 ---
 
-## Dataset Source  
+## Dataset Source
 
 Customer support dataset used for learning purposes.  
 *I do not own the data — full credit to original creators.*
+
 
