@@ -37,50 +37,48 @@ The result is a combination of **data-driven insights** and a **predictive ML mo
 
 ---
 
-## Methodology  
+## Methodology
 
-### **1. Data Cleaning & Preparation**
-- Handled missing & inconsistent values  
-- Converted timestamps  
-- Created duration features: *first response time*, *resolution time*  
-- Cleaned ticket text: combined subject + description  
-- Saved processed datasets  
+### 1. Data Cleaning & Preparation
+- Resolved missing and inconsistent values  
+- Standardized and converted timestamp fields  
+- Created duration features such as *first response time* and *resolution time*  
+- Combined subject and description fields to prepare clean ticket text  
+- Saved the processed datasets for modeling and reuse  
 
-### **2. Exploratory Data Analysis (EDA)**
-- Distribution of satisfaction  
-- Ticket priority, channel, type analysis  
-- Time-based behavior patterns  
-- Correlation heatmap  
+### 2. Exploratory Data Analysis (EDA)
+- Analyzed satisfaction score distribution  
+- Identified patterns across ticket priority, type, and support channels  
+- Explored time-based behaviors to understand workload and response delays  
+- Generated a correlation heatmap to study relationships among features  
 
-### **3. NLP Text Embedding (MPNet)**
-- Used `"all-mpnet-base-v2"` SentenceTransformer  
-- Generated **768-dimensional embeddings** for each ticket  
-- Combined numeric + categorical + text embeddings  
+### 3. NLP Text Embedding (MPNet)
+- Used the `"all-mpnet-base-v2"` SentenceTransformer model  
+- Generated **768-dimension embeddings** for each support ticket  
+- Merged text embeddings with numeric and categorical features to build a unified dataset  
 
-### **4. Machine Learning Models**
-- Logistic Regression  
-- Random Forest  
-- **XGBoost (final model)**  
-- Evaluated using accuracy, precision, recall, F1-score  
+### 4. Machine Learning Models
+- Trained models including Logistic Regression, Random Forest, and XGBoost  
+- Selected **XGBoost** as the final model due to best performance  
+- Evaluated all models using accuracy, precision, recall, and F1-score  
 
-### **5. Model Explainability**
-- SHAP bar plot → feature importance  
-- SHAP beeswarm → direction of impact  
+### 5. Model Explainability
+- Used SHAP bar plots to show feature importance  
+- Used SHAP beeswarm plots to analyze how each feature influences predictions  
 
-### **6. Model Export**
-Final trained model saved as:  
-`data/models/xgb_model.pkl`
+### 6. Model Export
+- Saved the final trained model as:  
+  `data/models/xgb_model.pkl`
 
 ---
 
-## Skills & Tools Used  
-
+## Skills & Tools Used
 - **Programming & Analytics:** Python, Pandas, NumPy  
 - **Machine Learning:** Scikit-learn, XGBoost  
 - **NLP:** SentenceTransformers (MPNet)  
 - **Visualization:** Seaborn, Matplotlib  
-- **Explainability:** SHAP  
-- **Development:** Google Colab, GitHub  
+- **Model Explainability:** SHAP  
+- **Development Environment:** Google Colab, GitHub  
 
 ---
 
