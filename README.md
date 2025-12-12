@@ -9,29 +9,31 @@ End-to-end Machine Learning + NLP project to predict customer satisfaction using
 
 ---
 
-## Executive Summary  
+## Executive Summary
 
-Using Python, NLP, and Machine Learning, this project analyzes customer support tickets to understand **why customers give low satisfaction ratings** and builds a **predictive model** to detect dissatisfaction early.
+This project applies **Python, NLP, and Machine Learning** to analyze customer support tickets and understand the key reasons behind **low satisfaction ratings**. A predictive model is built to flag dissatisfaction early, helping support teams take proactive actions.
 
-The project includes:  
-- Cleaning & preparing raw customer support data  
-- Feature engineering for response & resolution times  
-- Text embeddings using MPNet (SentenceTransformers)  
-- Machine Learning models (Logistic Regression, Random Forest, XGBoost)  
-- Model explainability using SHAP  
-- Saving final ML model for deployment  
+### Key Components
+- Cleaning and preprocessing raw customer support data
+- Feature engineering for **response time**, **resolution time**, and text metadata
+- Generating text embeddings using **MPNet (SentenceTransformers)**
+- Training ML models (Logistic Regression, Random Forest, XGBoost)
+- **Model explainability** using SHAP
+- Saving and exporting the final ML model for deployment
 
 ---
 
-## Business Problem  
+## Business Problem
 
-Companies receive thousands of support tickets daily.  
-It’s difficult to manually understand:  
-- Why customers are dissatisfied  
-- Which tickets will receive low ratings  
-- Which factors drive poor customer experience  
+Support teams handle **thousands of customer tickets** each day. Manually identifying dissatisfaction patterns and predicting low satisfaction scores is difficult.
 
-This project provides **data-driven insights** + a **predictive ML model** to help support teams act proactively.
+This project aims to solve:
+
+- **Why** customers are dissatisfied  
+- **Which** tickets are likely to receive low satisfaction ratings  
+- **Which factors** most influence customer experience  
+
+The result is a combination of **data-driven insights** and a **predictive ML model** that helps support teams act early and improve customer satisfaction.
 
 ---
 
