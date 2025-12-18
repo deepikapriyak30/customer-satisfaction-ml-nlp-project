@@ -1,4 +1,4 @@
-# customer-satisfaction-ml-nlp-project
+<img width="427" height="95" alt="image" src="https://github.com/user-attachments/assets/b25dd6d9-04be-4244-97f8-25360cc15b04" /># customer-satisfaction-ml-nlp-project
 End-to-end Machine Learning + NLP project to predict customer satisfaction using XGBoost, BERT embeddings, and SHAP explainability.
 
 ---
@@ -135,10 +135,10 @@ The result is a combination of **data-driven insights** and a **predictive ML mo
 
 ## Next Steps
 
-1. Build a Power BI dashboard for insights  
-2. Train an advanced transformer model (BERT fine-tuning)  
-3. Deploy the model as a REST API  
-4. Add text sentiment SHAP explanations  
+1. Enhance dashboards with role-based views for managers and support agents 
+2. Fine-tune transformer models for improved text understanding  
+3. Deploy the trained model as a REST API for real-time prediction  
+4. Automate SLA monitoring using ML predictions
 
 ---
 
