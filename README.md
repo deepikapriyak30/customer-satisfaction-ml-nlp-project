@@ -92,7 +92,7 @@ The result is a combination of **data-driven insights** and a **predictive ML mo
 
 ## 📊 Satisfaction Distribution (Satisfied vs Dissatisfied)
 <p align="centre">
-<img src="https://github.com/deepikapriyak30/customer-satisfaction-ml-nlp-project/blob/main/image/Satisfaction%20Distribution%20(Satisfied%20vs%20Dissatisfied).jpg?raw=true" width="350">
+<img src="https://github.com/deepikapriyak30/customer-satisfaction-ml-nlp-project/blob/main/image/Satisfaction%20Distribution%20(Satisfied%20vs%20Dissatisfied).jpg?raw=true" width="400">
 </p>
 
 ---
