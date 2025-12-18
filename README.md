@@ -90,6 +90,11 @@ The result is a combination of **data-driven insights** and a **predictive ML mo
 - **Product type** influences dissatisfaction patterns  
 - **Text sentiment** provides strong predictive power for the ML model  
 
+## 📊 Satisfaction Distribution (Satisfied vs Dissatisfied)
+<p align="centre">
+<img src="https://github.com/deepikapriyak30/IBM-HR-Analytics-Employee-Attrition-Performance/blob/main/image/Attrition%20Distribution.png?raw=true" width="350">
+</p>
+
 ---
 
 ## Machine Learning Results
