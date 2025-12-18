@@ -1,4 +1,5 @@
-<img width="427" height="95" alt="image" src="https://github.com/user-attachments/assets/b25dd6d9-04be-4244-97f8-25360cc15b04" /># customer-satisfaction-ml-nlp-project
+# customer-satisfaction-ml-nlp-project
+
 End-to-end Machine Learning + NLP project to predict customer satisfaction using XGBoost, BERT embeddings, and SHAP explainability.
 
 ---
