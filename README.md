@@ -47,27 +47,32 @@ The result is a combination of **data-driven insights** and a **predictive ML mo
 - Combined subject and description fields to prepare clean ticket text  
 - Saved the processed datasets for modeling and reuse  
 
-### 2. Exploratory Data Analysis (EDA)
+### 2. Data Limitations
+- The dataset does not include ticket creation timestamps.
+- As a result, absolute SLA metrics (true first response SLA, resolution SLA) could not be calculated.
+- Time-based metrics in dashboards are derived from the available timestamp fields and should be interpreted as relative indicators rather than exact SLA compliance measures.
+
+### 3. Exploratory Data Analysis (EDA)
 - Analyzed satisfaction score distribution  
 - Identified patterns across ticket priority, type, and support channels  
 - Explored time-based behaviors to understand workload and response delays  
 - Generated a correlation heatmap to study relationships among features  
 
-### 3. NLP Text Embedding (MPNet)
+### 4. NLP Text Embedding (MPNet)
 - Used the `"all-mpnet-base-v2"` SentenceTransformer model  
 - Generated **768-dimension embeddings** for each support ticket  
 - Merged text embeddings with numeric and categorical features to build a unified dataset  
 
-### 4. Machine Learning Models
+### 5. Machine Learning Models
 - Trained models including Logistic Regression, Random Forest, and XGBoost  
 - Selected **XGBoost** as the final model due to best performance  
 - Evaluated all models using accuracy, precision, recall, and F1-score  
 
-### 5. Model Explainability
+### 6. Model Explainability
 - Used SHAP bar plots to show feature importance  
 - Used SHAP beeswarm plots to analyze how each feature influences predictions  
 
-### 6. Model Export
+### 7. Model Export
 - Saved the final trained model as:  
   `data/models/xgb_model.pkl`
 
